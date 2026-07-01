@@ -1,4 +1,20 @@
-# malloc_challenge
+# malloc_challenge (week7)
+
+## 実行結果  
+変更前のsimple_malloc.c
+| Challenge | #1 | #2 | #3 | #4 | #5 | 
+|------|------|------|------|------|------|
+| Time [ms] | 11 | 4 | 76 | 10022 | 7503 |
+| Utilization [%] | 70 | 40 | 9 | 15 | 15 |
+
+
+自分のmy_malloc.c
+| Challenge | #1 | #2 | #3 | #4 | #5 | 
+|------|------|------|------|------|------|
+| Time [ms] | 506 | 454 | 237 | 111 | 127 |
+| Utilization [%] | 65 | 31 | 43 | 84 | 83 |
+
+# 以下は元からREADMEに記載されていたもの
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fhikalium%2Fmalloc_challenge&cloudshell_open_in_editor=malloc.c&cloudshell_workspace=malloc)
 
