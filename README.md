@@ -19,8 +19,8 @@
    2000 <= size < 2500 の空き容量は、index12へ  
    2500 <= size の空き容量は、index13へ　　  
 
-3. 空になったページの返却
-   pageは4096byte(4KB)の倍数ごとに行う必要がある。そのため、metadata + object の構成に、pageを加えた。    
+3. 空になったページの返却  
+   pageは4096byte(4KB)の倍数ごとに行う必要がある。pageを管理する必要があったため、metadata + object の構成に、pageを加えた。    
    各ページの先頭にpageを配置し、それを連結リストで繋ぐようにしている。    
    page metadata objec ..... metadata object | page metadata .....  
    なお、ページを跨ぐようなmetadataおよびobjectはないようにしている。  
