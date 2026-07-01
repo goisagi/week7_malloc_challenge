@@ -22,7 +22,7 @@
 3. 空になったページの返却  
    pageは4096byte(4KB)の倍数ごとに行う必要がある。pageを管理する必要があったため、metadata + object の構成に、pageを加えた。    
    各ページの先頭にpageを配置し、それを連結リストで繋ぐようにしている。    
-   例) page metadata objec ..... metadata object | page metadata .....  
+   例) page metadata object ..... metadata object | page metadata .....  
    なお、ページを跨ぐようなmetadataおよびobjectはないようにしている。  
    1つの容量を空にする際に、そのmetadataが持っているページを見て、ページの持つallocated_countを確認する。  
    allocated_countが0になるならば、ページに使用中の場所がないということになるので、OSにそのページを返す。    
