@@ -1,4 +1,4 @@
-# malloc_challenge (week7)
+# malloc_challenge (week7) ※プログラムはmalloc/my_malloc.c
 
 ## 課題内容
 課題：元のmallocプログラム(simple_malloc.cと同じ)のメモリ使用効率と処理速度を向上させる  
